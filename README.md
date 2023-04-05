@@ -119,18 +119,18 @@ Passo 2: Configurar o Item na Interface Web do Zabbix
 O próximo passo é configurar o item de ping reverso na interface web do Zabbix. Para fazer isso, siga os seguintes passos:
 
 1.  Faça login na interface web do Zabbix.
-2.  Navegue até a seção "Configuration" e selecione "Hosts".
+2.  Navegue até a seção "Configuração" e selecione "Hosts".
 3.  Selecione o host para o qual você deseja adicionar o item de ping reverso.
-4.  Na guia "Items", clique no botão "Create item".
-5.  Na página "Create item", insira as seguintes informações:
-    *   Name: um nome descritivo para o item, por exemplo, "Ping reverso".
-    *   Type: "Zabbix agent".
-    *   Key: "user.ping.latency\[hostname\]", substituindo "hostname" pelo nome ou endereço IP do host que você deseja testar.
-    *   Type of information: "Numeric (float)".
-    *   Units: "ms".
-    *   Update interval: o intervalo de tempo em que o item será atualizado. Por exemplo, você pode definir 30 segundos.
+4.  Na guia "Itens", clique no botão "Criar item".
+5.  Na página "Criar item", insira as seguintes informações:
+    *   Nome: um nome descritivo para o item, por exemplo, "Ping reverso".
+    *   Tipo: "Agente Zabbix (ativo)".
+    *   Chave: "user.ping.latency\[hostname\]", substituindo "hostname" pelo nome ou endereço IP do host que você deseja testar.
+    *   Tipo de informação: "Numérico (fracionário)".
+    *   Unidades: "ms".
+    *   intervalo de atualização: o intervalo de tempo em que o item será atualizado. Por exemplo, você pode definir 30 segundos.
     *   Applications: adicione um aplicativo relevante para o item, como "Network".
-6.  Clique em "Add" para salvar o item.
+6.  Clique em "Adicionar" para salvar o item.
 7.  Verifique se o item está coletando dados corretamente navegando
 
 
